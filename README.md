@@ -1,10 +1,18 @@
 # Shop Angular Cloudfront
 
+[Yuri Lapitski](https://github.com/yura703)
+
+---
+
+For deploy:
+
+```
+npm run cloudfront:update:build:deploy
+```
+
+---
+
 Angular version: ~12.
-
-Repo maintainers:
-
-- [Sergey Gultyayev](https://github.com/gultyaev)
 
 ## The purpose
 
