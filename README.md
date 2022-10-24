@@ -5,7 +5,6 @@
 ---
 
 CloudFront: https://d3gg1r7l75biaz.cloudfront.net/
-
 S3 bucket: http://shop-yura703-fe.s3-website-eu-west-1.amazonaws.com/
 
 ---
