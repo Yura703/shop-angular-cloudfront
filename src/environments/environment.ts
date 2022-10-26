@@ -1,23 +1,22 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
 import { Config } from './config.interface';
 
 export const environment: Config = {
   production: false,
   apiEndpoints: {
-    product: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    product: 'https://b4eddij4ge.execute-api.eu-west-1.amazonaws.com/dev',
     order: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
-    import: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
-    bff: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    import: 'https://vnpgfxqgkj.execute-api.eu-west-1.amazonaws.com/dev',
+    bff: 'https://b4eddij4ge.execute-api.eu-west-1.amazonaws.com/dev',
     cart: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
   },
   apiEndpointsEnabled: {
-    product: false,
+    product: true,
     order: false,
-    import: false,
-    bff: false,
+    import: true,
+    bff: true,
     cart: false,
   },
 };

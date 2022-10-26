@@ -1,10 +1,23 @@
 # Shop Angular Cloudfront
 
+[Yuri Lapitski](https://github.com/yura703)
+
+---
+
+CloudFront: https://d3gg1r7l75biaz.cloudfront.net/
+S3 bucket: http://shop-yura703-fe.s3-website-eu-west-1.amazonaws.com/
+
+---
+
+For deploy:
+
+```
+npm run cloudfront:update:build:deploy
+```
+
+---
+
 Angular version: ~12.
-
-Repo maintainers:
-
-- [Sergey Gultyayev](https://github.com/gultyaev)
 
 ## The purpose
 
